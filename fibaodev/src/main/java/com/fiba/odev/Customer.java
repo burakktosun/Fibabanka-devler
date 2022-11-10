@@ -1,0 +1,45 @@
+package com.fiba.odev;
+
+public class Customer {
+
+	private long customerId;
+
+	private String customerName;
+
+	private double totalDebit;
+
+	public long getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(long customerId) {
+		this.customerId = customerId;
+	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public double getTotalDebit() {
+		return totalDebit;
+	}
+
+	public void setTotalDebit(double totalDebit) {
+		this.totalDebit = totalDebit;
+	}
+
+	public Customer() {
+		super();
+	}
+
+	public Customer(long customerId, String customerName, double totalDebit) {
+		super();
+		this.customerId = customerId;
+		this.customerName = customerName;
+		this.totalDebit = totalDebit;
+	}
+}
